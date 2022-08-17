@@ -4,7 +4,7 @@ Click here to visit the Site[Hosted on Netlify](https://real-estate-demo-app.net
 
 ## Screenshot
 
-![alt text](./Screenshot(23).png)
+![alt text](https://github.com/srejus/Real-Estate-React-App/blob/master/Screenshot%20(23).png)
 
 ## Available Scripts
 
