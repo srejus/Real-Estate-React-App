@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Single page React app fro real-Estate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click here to visit the Site[Hosted on Netlify](https://real-estate-demo-app.netlify.app/).
+
+## Screenshot
+
+![alt text](./Screenshot(23).png)
 
 ## Available Scripts
 
