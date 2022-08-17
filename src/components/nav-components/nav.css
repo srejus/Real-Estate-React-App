@@ -1,0 +1,104 @@
+.NavDiv{
+    width: 96%;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 55px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.inner-nav{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    background-color: white;
+    margin-right: 50px;
+}
+
+.nav-item-div{
+    margin-left: 15px;
+    margin-top: 30px;
+    background-color: white;
+}
+.nav-btn{
+    border:none;
+    min-width: 90px;
+    height: 35px;
+    margin-left: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.nav-btn:hover{
+    border:none;
+    min-width: 90px;
+    height: 35px;
+    margin-left: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(232, 238, 240);
+    border-radius: 5px;
+
+}
+.active{
+    color: #5B33FF;;
+    background-color: rgb(232, 238, 240);
+}
+
+.right-div{
+    width: 250px;
+    margin-top: 30px;
+    margin-left: -90px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-btn{
+    background-color: #5B33FF;
+    color: white;
+}
+
+.sec-btn:hover{
+    background-color: #5B33FF;
+}
+
+
+@media(max-width:852px){
+    .NavDiv{
+        width: 85%;
+        height: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        background-color: white;
+
+    }
+    
+    .inner-nav{
+        width: 200%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        overflow-y: scroll;   
+        margin-left: -50px;
+        height: 90px;     
+    }
+
+    .right-div{
+        
+        display: none;
+    }
+
+   
+}
